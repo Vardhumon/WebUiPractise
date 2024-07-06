@@ -10,7 +10,7 @@ import Company5 from "../assets/Company5.png"
 
 function Homepage() {
   return (
-    <div className='w-screen h-screen '>
+    <div className='w-screen h-screen ' style={{fontFamily:"DS-Digital"}}>
         <nav className='flex justify-around items-center py-5'>
         <img src={Logo} alt="Logo" className="h-14" />
             <div className='logo '></div>
